@@ -1,0 +1,22 @@
+print()
+print("The Truth table for the AND(∧) conjunction is:")
+def ANDconjunction(p, q):
+        return p and q
+print("P    Q    A")
+for p in [True, False]:
+        for q in [True, False]:
+            a = ANDconjunction(p, q)
+            print(p, q, a)
+print()
+print()
+
+print("The Truth table for the OR(∨) disjunction is:")
+print()
+
+def ORconjunction2(i,j):
+        return i or j
+print(" I   J   B")
+for i in [True,False]:
+       for j in [True, False]:
+        b = ORconjunction2(i, j)
+        print(i, j, b)
